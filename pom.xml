@@ -8,17 +8,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-bemonsteringstype</artifactId> <!-- e.g. codelijst-testrepo -->
+  <artifactId>codelijst-observatieproceduretype</artifactId> <!-- e.g. codelijst-testrepo -->
   <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-bemonsteringstype</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-observatieproceduretype</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git</url>
     <tag>HEAD</tag>
   </scm>
   <build>
