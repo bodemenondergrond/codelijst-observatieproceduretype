@@ -115,7 +115,7 @@ ct:BOD_CHEM16;skos:Concept;BOD_CHEM16;colt:observatieproceduretypes;;Oxalaat ext
 ct:BOD_PFAS;skos:Concept;BOD_PFAS;colt:observatieproceduretypes;;PFAS in bodem volgens CMA_3_D;;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
 ct:GW_PFAS;skos:Concept;GW_PFAS;colt:observatieproceduretypes;;PFAS in water volgens WAC_IV_A_025;;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
 ct:BOD_CHEM7;skos:Concept;BOD_CHEM7;colt:observatieproceduretypes;;pH H2O centrum voor Grondonderzoek De Leenheer;;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
-ct:BOD_CHEM12;skos:Concept;BOD_CHEM12;colt:observatieproceduretypes;;"pH in CaCl2; 0,01M; 1:2,5";;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
+ct:BOD_CHEM12;skos:Concept;BOD_CHEM12;colt:observatieproceduretypes;;pH in CaCl2, 0,01M, 1:2,5;;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
 ct:BOD_CHEM23;skos:Concept;BOD_CHEM23;colt:observatieproceduretypes;;pH in KCl 1:10 (V/V) (Cmon analyseprotocol);;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
 ct:BOD_CHEM22;skos:Concept;BOD_CHEM22;colt:observatieproceduretypes;;pH in KCl 1:5 (V/V) (Cmon analyseprotocol);;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
 ct:BOD_CHEM14;skos:Concept;BOD_CHEM14;colt:observatieproceduretypes;;pH in KCl, 1M, 1:5 (m/V);;;;;;;;;;;;;cs:observatieproceduretype;;;;;;;cs:observatieproceduretype
