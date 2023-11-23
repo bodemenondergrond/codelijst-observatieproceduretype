@@ -71,7 +71,7 @@ Release:
 ---
 version: 2
 plan:
-  key: DOV-OBSERVATIEPROCEDURETYPE
+  key: DOV-DOVOBSERVATIEPROCEDURETYPE
 
 plan-permissions:
   - groups:
