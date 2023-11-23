@@ -1,129 +1,253 @@
 {
     "@graph": [
         {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_csv",
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype_csv.html"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype_csv",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_csv",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in text/csv formaat."
             },
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in text/csv formaat."
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in text/csv formaat."
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in csv tabelformaat."
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "@type": "dcat:Distribution",
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.csv"
+                "@value": "Codelijst observatieproceduretype, in text/csv formaat."
             },
             "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
             },
-            "dcterms:format": {
-                "@id": "file_type:CSV"
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_csv"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
             },
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/text/csv"
             },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype.csv"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in csv tabelformaat."
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.1.observatieproceduretype_csv.html"
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype_csv",
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_csv"
             }
         },
         {
-            "@id": "omg_dataset:codelijst-bemonsteringstype.0.1.0",
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_jsonld",
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype_jsonld",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
             "dcterms:description": {
                 "@language": "nl",
-                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in een jsonld bestand."
             },
-            "dcterms:alternative": {
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.1.observatieproceduretype_jsonld.html"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_jsonld"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype.jsonld"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:title": {
                 "@language": "nl",
-                "@value": "Dataset codelijst bemonsteringstype"
+                "@value": "Codelijst observatieproceduretype in jsonld rdf-formaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in jsonld rdf-formaat."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_xsd",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in xml xsd-formaat."
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/xml"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_xsd"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.1.observatieproceduretype_xsd.html"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype.xsd"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in xml/xsd formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:XSD"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in een xsd bestand met een enumeratie."
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
-            "dc:language": {
-                "@language": "nl",
-                "@value": "nl"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype (0.1.0)"
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-bemonsteringstype.0.1.0.html"
-            },
-            "dcterms:spatial": [
-                {
-                    "@id": "country:BEL"
-                },
-                {
-                    "@id": "https://www.geonames.org/3337388/flanders"
-                }
-            ],
-            "dcterms:language": {
-                "@id": "language:NLD"
-            },
-            "dcterms:isVersionOf": {
-                "@id": "omg_dataset:codelijst-bemonsteringstype"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
-            },
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:bemonsteringstype"
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
-            "dcat:distribution": [
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_jsonld"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_rdf"
-                },
-                {
-                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.0"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_csv"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_xsd"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_ttl"
-                }
-            ],
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype_xsd"
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_rdf",
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
             },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in rdf/xml bestand."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_rdf"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype.rdf"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_XML"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.0.observatieproceduretype_rdf.html"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in xml rdf-formaat."
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in xml rdf-formaat."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype_rdf"
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_csv",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.0.observatieproceduretype_csv.html"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_csv"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/csv"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in text/csv formaat."
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in csv tabelformaat."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype_csv",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in text/csv formaat."
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype.csv"
+            },
+            "dcterms:format": {
+                "@id": "file_type:CSV"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-observatieproceduretype.0.1.1",
             "dcat:theme": [
                 {
-                    "@id": "eurovoc:2407"
+                    "@id": "datatheme_be:ENVI"
                 },
                 {
-                    "@id": "datatheme_be:ENVI"
+                    "@id": "eurovoc:2407"
                 },
                 {
                     "@id": "datatheme_eu:ENVI"
@@ -132,104 +256,247 @@
                     "@id": "gemet:10087"
                 }
             ],
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst observatieproceduretype"
             },
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
             },
             "@type": "dcat:Dataset",
             "dcterms:publisher": {
                 "@id": "ovo:OVO003323"
             },
+            "dcat:distribution": [
+                {
+                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.1"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_ttl"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_rdf"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_xsd"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_jsonld"
+                }
+            ],
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:observatieproceduretype"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+            },
             "dcterms:issued": {
-                "@value": "2023-07-27",
+                "@value": "2023-09-21",
                 "@type": "xsd:date"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-observatieproceduretype.0.1.1",
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-observatieproceduretype.0.1.1"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
             },
             "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst bemonsteringstype"
+                "@value": "Codelijst observatieproceduretype"
             },
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-bemonsteringstype.0.1.0"
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype (0.1.1)"
+            },
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-observatieproceduretype"
             },
             "dcterms:license": {
                 "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
             },
-            "owl:versionInfo": "0.1.0",
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-bemonsteringstype.0.1.0"
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "dcterms:spatial": [
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                },
+                {
+                    "@id": "country:BEL"
+                }
+            ],
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "owl:versionInfo": "0.1.1",
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-observatieproceduretype.0.1.1.html"
+            }
         },
         {
-            "@id": "omg_dataset:codelijst-bemonsteringstype",
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.1",
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-observatieproceduretype/0.1.1/codelijst-observatieproceduretype-0.1.1.jar"
+            },
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype",
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-observatieproceduretype/0.1.1/codelijst-observatieproceduretype-0.1.1.jar"
+            },
+            "spdx:packageFileName": "codelijst-observatieproceduretype-0.1.1.jar",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.1",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, Jar maven package."
+            },
+            "spdx:versionInfo": "0.1.1",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in jar-formaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-observatieproceduretype"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.1"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_ttl",
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_ttl"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in Turtle rdf-formaat."
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype_ttl",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.1.observatieproceduretype_ttl.html"
+            },
+            "dcterms:issued": {
+                "@value": "2023-09-21",
+                "@type": "xsd:date"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in Turtle rdf-formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype.ttl"
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-observatieproceduretype",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-observatieproceduretype.html"
+            },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                }
+            ],
+            "@type": "dcat:Dataset",
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:observatieproceduretype"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst observatieproceduretype"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-observatieproceduretype",
             "dcterms:publisher": {
                 "@id": "ovo:OVO003323"
             },
             "dcterms:hasVersion": [
                 {
-                    "@id": "omg_dataset:codelijst-bemonsteringstype.0.1.1"
+                    "@id": "omg_dataset:codelijst-observatieproceduretype.0.1.1"
                 },
                 {
-                    "@id": "omg_dataset:codelijst-bemonsteringstype.0.1.0"
+                    "@id": "omg_dataset:codelijst-observatieproceduretype.0.1.0"
                 }
             ],
-            "dcterms:license": {
-                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-bemonsteringstype.html"
-            },
-            "dcterms:language": {
-                "@id": "language:NLD"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
-            },
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:bemonsteringstype"
-            },
-            "dcat:theme": [
-                {
-                    "@id": "datatheme_eu:ENVI"
-                },
-                {
-                    "@id": "eurovoc:2407"
-                },
-                {
-                    "@id": "gemet:10087"
-                },
-                {
-                    "@id": "datatheme_be:ENVI"
-                }
-            ],
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-bemonsteringstype",
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
-            },
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
-            },
-            "@type": "dcat:Dataset",
-            "dc:language": {
-                "@language": "nl",
-                "@value": "nl"
-            },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype"
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
             },
             "dcterms:spatial": [
                 {
@@ -239,583 +506,43 @@
                     "@id": "https://www.geonames.org/3337388/flanders"
                 }
             ],
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-bemonsteringstype"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:alternative": {
-                "@language": "nl",
-                "@value": "Dataset codelijst bemonsteringstype"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_jsonld",
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in een jsonld bestand."
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.jsonld"
-            },
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in jsonld rdf-formaat."
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype_jsonld.html"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "@type": "dcat:Distribution",
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype_jsonld",
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in jsonld rdf-formaat."
+                "@value": "Codelijst observatieproceduretype"
             },
             "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_jsonld"
+                "@id": "omg_dataset:codelijst-observatieproceduretype"
             },
-            "dcterms:format": {
-                "@id": "file_type:JSON_LD"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_rdf",
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.rdf"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in xml rdf-formaat."
-            },
-            "dcterms:format": {
-                "@id": "file_type:RDF_XML"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_rdf"
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype_rdf",
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
-            },
-            "@type": "dcat:Distribution",
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype_rdf.html"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in rdf/xml bestand."
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in xml rdf-formaat."
-            }
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.0",
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.0",
-            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype",
-            "spdx:packageFileName": "codelijst-bemonsteringstype-0.1.0.jar",
-            "dcterms:format": {
-                "@id": "file_type:JAR"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-bemonsteringstype/0.1.0/codelijst-bemonsteringstype-0.1.0.jar"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in jar-formaat."
-            },
-            "spdx:downloadLocation": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-bemonsteringstype/0.1.0/codelijst-bemonsteringstype-0.1.0.jar"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, Jar maven package."
-            },
-            "spdx:versionInfo": "0.1.0",
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package codelijst-bemonsteringstype"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "@type": [
-                "spdx:Package",
-                "dcat:Distribution"
-            ],
-            "dcterms:identifier": {
-                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.0"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_xsd",
-            "dcterms:format": {
-                "@id": "file_type:XSD"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in een xsd bestand met een enumeratie."
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype_xsd",
-            "@type": "dcat:Distribution",
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_xsd"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in xml xsd-formaat."
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype_xsd.html"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.xsd"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in xml/xsd formaat."
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/xml"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_ttl",
-            "dcterms:format": {
-                "@id": "file_type:RDF_TURTLE"
-            },
-            "@type": "dcat:Distribution",
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype_ttl",
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in Turtle rdf-formaat."
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.0.bemonsteringstype.ttl"
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.0.bemonsteringstype_ttl.html"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in Turtle bestand."
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.0.bemonsteringstype_ttl"
-            },
-            "dcterms:issued": {
-                "@value": "2023-07-27",
-                "@type": "xsd:date"
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in Turtle rdf-formaat."
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_rdf",
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.1.bemonsteringstype_rdf.html"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_rdf"
-            },
-            "@type": "dcat:Distribution",
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype.rdf"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in xml rdf-formaat."
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dcterms:format": {
-                "@id": "file_type:RDF_XML"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in xml rdf-formaat."
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype_rdf",
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in rdf/xml bestand."
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_csv",
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.1.bemonsteringstype_csv.html"
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in text/csv formaat."
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/csv"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in csv tabelformaat."
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype.csv"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in text/csv formaat."
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_csv"
-            },
-            "@type": "dcat:Distribution",
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype_csv",
-            "dcterms:format": {
-                "@id": "file_type:CSV"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_jsonld",
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.1.bemonsteringstype_jsonld.html"
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in een jsonld bestand."
-            },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in jsonld rdf-formaat."
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype_jsonld",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "@type": "dcat:Distribution",
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype.jsonld"
-            },
-            "dcterms:format": {
-                "@id": "file_type:JSON_LD"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in jsonld rdf-formaat."
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_jsonld"
-            }
-        },
-        {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_xsd",
-            "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_xsd"
-            },
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in een xsd bestand met een enumeratie."
-            },
-            "dcat:compressFormat": {
-                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype_xsd",
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in xml/xsd formaat."
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/application/xml"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype.xsd"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in xml xsd-formaat."
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.1.bemonsteringstype_xsd.html"
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "@type": "dcat:Distribution",
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
-            "dcterms:format": {
-                "@id": "file_type:XSD"
-            }
-        },
-        {
-            "@id": "omg_dataset:codelijst-bemonsteringstype.0.1.1",
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-bemonsteringstype.0.1.1.html"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype (0.1.1)"
-            },
-            "dcterms:accrualPeriodicity": {
-                "@id": "frequency:IRREG"
-            },
-            "owl:versionInfo": "0.1.1",
-            "dcterms:temporal": {
-                "@id": "omg_id:periodoftime/dataset_omg"
-            },
-            "dcterms:license": {
-                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            },
-            "dcat:theme": [
-                {
-                    "@id": "datatheme_be:ENVI"
-                },
-                {
-                    "@id": "datatheme_eu:ENVI"
-                },
-                {
-                    "@id": "gemet:10087"
-                },
-                {
-                    "@id": "eurovoc:2407"
-                }
-            ],
-            "dcat:distribution": [
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_csv"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_jsonld"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_ttl"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_xsd"
-                },
-                {
-                    "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_rdf"
-                },
-                {
-                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.1"
-                }
-            ],
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_dataset:codelijst-bemonsteringstype.0.1.1"
-            },
-            "dcterms:publisher": {
-                "@id": "ovo:OVO003323"
-            },
-            "@type": "dcat:Dataset",
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
             },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype"
             },
             "dc:language": {
                 "@language": "nl",
                 "@value": "nl"
             },
-            "dcterms:spatial": [
-                {
-                    "@id": "country:BEL"
-                },
-                {
-                    "@id": "https://www.geonames.org/3337388/flanders"
-                }
-            ],
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype"
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
             },
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-bemonsteringstype.0.1.1",
-            "dcterms:alternative": {
-                "@language": "nl",
-                "@value": "Dataset codelijst bemonsteringstype"
-            },
-            "dcterms:language": {
-                "@id": "language:NLD"
-            },
-            "dcterms:isVersionOf": {
-                "@id": "omg_dataset:codelijst-bemonsteringstype"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
-            "dcat:landingPage": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
-            },
-            "void:rootResource": {
-                "@id": "omg_conceptscheme:bemonsteringstype"
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
             }
         },
         {
-            "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_ttl",
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype_ttl",
-            "dcterms:description": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, geserialiseerd in Turtle bestand."
-            },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringstype.git"
-            },
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_rdf",
             "dcterms:format": {
-                "@id": "file_type:RDF_TURTLE"
+                "@id": "file_type:RDF_XML"
             },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
-            "rdfs:label": {
+            "dcterms:title": {
                 "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, in Turtle rdf-formaat."
-            },
-            "foaf:page": {
-                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringstype.0.1.1.bemonsteringstype_ttl.html"
-            },
-            "dcat:downloadURL": {
-                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringstype.0.1.1.bemonsteringstype.ttl"
+                "@value": "Codelijst observatieproceduretype in xml rdf-formaat."
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
@@ -823,72 +550,345 @@
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in Turtle rdf-formaat."
-            },
             "dcterms:identifier": {
-                "@id": "omg_distribution:codelijst-bemonsteringstype.0.1.1.bemonsteringstype_ttl"
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.1.observatieproceduretype_rdf"
             },
-            "dcat:mediaType": {
-                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
-            },
-            "@type": "dcat:Distribution",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype_rdf",
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            }
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.1",
-            "spdx:versionInfo": "0.1.1",
-            "dcterms:rightsHolder": {
-                "@id": "ovo:OVO003751"
             },
-            "dcat:downloadURL": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-bemonsteringstype/0.1.1/codelijst-bemonsteringstype-0.1.1.jar"
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in rdf/xml bestand."
             },
-            "spdx:downloadLocation": {
-                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-bemonsteringstype/0.1.1/codelijst-bemonsteringstype-0.1.1.jar"
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.1.observatieproceduretype_rdf.html"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
             },
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Package codelijst-bemonsteringstype"
+                "@value": "Codelijst observatieproceduretype, in xml rdf-formaat."
             },
-            "dcterms:format": {
-                "@id": "file_type:JAR"
-            },
-            "dcterms:accessRights": {
-                "@id": "access_right:PUBLIC"
-            },
-            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.1",
-            "dcterms:title": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringstype in jar-formaat."
+            "@type": "dcat:Distribution",
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.1.observatieproceduretype.rdf"
             },
             "dcterms:issued": {
                 "@value": "2023-09-21",
                 "@type": "xsd:date"
             },
-            "@type": [
-                "spdx:Package",
-                "dcat:Distribution"
-            ],
-            "dcterms:identifier": {
-                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype.0.1.1"
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_xsd",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.0.observatieproceduretype_xsd.html"
             },
-            "spdx:packageFileName": "codelijst-bemonsteringstype-0.1.1.jar",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype.xsd"
+            },
+            "dcterms:format": {
+                "@id": "file_type:XSD"
+            },
             "dcterms:description": {
                 "@language": "nl",
-                "@value": "Codelijst bemonsteringstype, Jar maven package."
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in een xsd bestand met een enumeratie."
             },
-            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringstype"
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "@type": "dcat:Distribution",
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in xml/xsd formaat."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in xml xsd-formaat."
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_xsd"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype_xsd",
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/xml"
+            }
         },
         {
             "@id": "omg_catalog:codelijst",
             "dcat:dataset": {
-                "@id": "omg_dataset:codelijst-bemonsteringstype"
+                "@id": "omg_dataset:codelijst-observatieproceduretype"
             },
             "@type": "dcat:Catalog"
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_jsonld",
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in een jsonld bestand."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in jsonld rdf-formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:JSON_LD"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype.jsonld"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in jsonld rdf-formaat."
+            },
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_jsonld"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/application/ld+json"
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "@type": "dcat:Distribution",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype_jsonld",
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.0.observatieproceduretype_jsonld.html"
+            }
+        },
+        {
+            "@id": "omg_dataset:codelijst-observatieproceduretype.0.1.0",
+            "dcat:distribution": [
+                {
+                    "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.0"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_rdf"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_ttl"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_csv"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_xsd"
+                },
+                {
+                    "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_jsonld"
+                }
+            ],
+            "dcterms:spatial": [
+                {
+                    "@id": "country:BEL"
+                },
+                {
+                    "@id": "https://www.geonames.org/3337388/flanders"
+                }
+            ],
+            "owl:versionInfo": "0.1.0",
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
+            "dcterms:language": {
+                "@id": "language:NLD"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-observatieproceduretype.0.1.0",
+            "dcat:theme": [
+                {
+                    "@id": "gemet:10087"
+                },
+                {
+                    "@id": "datatheme_eu:ENVI"
+                },
+                {
+                    "@id": "eurovoc:2407"
+                },
+                {
+                    "@id": "datatheme_be:ENVI"
+                }
+            ],
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."
+            },
+            "dcterms:publisher": {
+                "@id": "ovo:OVO003323"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-observatieproceduretype.0.1.0.html"
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:isVersionOf": {
+                "@id": "omg_dataset:codelijst-observatieproceduretype"
+            },
+            "dc:language": {
+                "@language": "nl",
+                "@value": "nl"
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
+            "dcterms:alternative": {
+                "@language": "nl",
+                "@value": "Dataset codelijst observatieproceduretype"
+            },
+            "dcterms:accrualPeriodicity": {
+                "@id": "frequency:IRREG"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype"
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:landingPage": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_dataset:codelijst-observatieproceduretype.0.1.0"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype (0.1.0)"
+            },
+            "void:rootResource": {
+                "@id": "omg_conceptscheme:observatieproceduretype"
+            },
+            "dcterms:temporal": {
+                "@id": "omg_id:periodoftime/dataset_omg"
+            },
+            "@type": "dcat:Dataset"
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.0",
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijst-observatieproceduretype"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, Jar maven package."
+            },
+            "@type": [
+                "spdx:Package",
+                "dcat:Distribution"
+            ],
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in jar-formaat."
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
+            "spdx:versionInfo": "0.1.0",
+            "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype",
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "spdx:packageFileName": "codelijst-observatieproceduretype-0.1.0.jar",
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.0",
+            "dcterms:identifier": {
+                "@id": "omg_id:package/be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-observatieproceduretype.0.1.0"
+            },
+            "dcterms:format": {
+                "@id": "file_type:JAR"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-observatieproceduretype/0.1.0/codelijst-observatieproceduretype-0.1.0.jar"
+            },
+            "spdx:downloadLocation": {
+                "@id": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-observatieproceduretype/0.1.0/codelijst-observatieproceduretype-0.1.0.jar"
+            }
+        },
+        {
+            "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_ttl",
+            "dcterms:title": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype in Turtle rdf-formaat."
+            },
+            "dcterms:format": {
+                "@id": "file_type:RDF_TURTLE"
+            },
+            "foaf:page": {
+                "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-observatieproceduretype.0.1.0.observatieproceduretype_ttl.html"
+            },
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-observatieproceduretype.git"
+            },
+            "dcat:mediaType": {
+                "@id": "https://www.iana.org/assignments/media-types/text/turtle"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, in Turtle rdf-formaat."
+            },
+            "dcterms:accessRights": {
+                "@id": "access_right:PUBLIC"
+            },
+            "dcterms:identifier": {
+                "@id": "omg_distribution:codelijst-observatieproceduretype.0.1.0.observatieproceduretype_ttl"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype.ttl"
+            },
+            "dcterms:issued": {
+                "@value": "2023-11-23",
+                "@type": "xsd:date"
+            },
+            "dcterms:description": {
+                "@language": "nl",
+                "@value": "Codelijst observatieproceduretype, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:rightsHolder": {
+                "@id": "ovo:OVO003751"
+            },
+            "dcat:compressFormat": {
+                "@id": "http://www.iana.org/assignments/media-types/application/gzip"
+            },
+            "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-observatieproceduretype.0.1.0.observatieproceduretype_ttl"
         }
     ],
     "@context": {
