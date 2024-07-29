@@ -1,0 +1,983 @@
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/observatieproceduretype/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+collectie:observatieproceduretypes dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.observatieproceduretype.observatieproceduretypes";
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:prefLabel "Collectie van observatieproceduretypes."@nl.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/0> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.0";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "0";
+    skos:prefLabel "Onbekend"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/10> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.10";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "10";
+    skos:prefLabel "FAAS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/110> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.110";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "110";
+    skos:prefLabel "Zeving op massa met grootte <= 2mm (fijnkorrelig)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/111> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.111";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "111";
+    skos:prefLabel "Hydrometer met ijking Geotechniek"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/112> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.112";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "112";
+    skos:prefLabel "D.m.v. Laserdiffractie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/113> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.113";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "113";
+    skos:prefLabel "Hydrometer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/115> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.115";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "115";
+    skos:prefLabel "Bepaling vloeigrens d.m.v. apparaat van Casagrande"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/116> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.116";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "116";
+    skos:prefLabel "Bepaling vloeigrens d.m.v. de valconus"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/117> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.117";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "117";
+    skos:prefLabel "Bepaling van de uitrolgrens"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/118> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.118";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "118";
+    skos:prefLabel "Volumieke massa door weging"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/119> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.119";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "119";
+    skos:prefLabel "Gewichtsverlies na drogen in droogstoof"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/11> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.11";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "11";
+    skos:prefLabel "MS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/120> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.120";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "120";
+    skos:prefLabel "Gaspyknometer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/12> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.12";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "12";
+    skos:prefLabel "GCMS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/134> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.134";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "134";
+    skos:prefLabel "d.m.v. trechter"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/136> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.136";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "136";
+    skos:prefLabel "Veranderlijk verval in permeameter"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/137> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.137";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "137";
+    skos:prefLabel "Constant verval in doorlatendheidscel"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/138> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.138";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "138";
+    skos:prefLabel "Constant verval in triaxiaalcel"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/13> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.13";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "13";
+    skos:prefLabel "GC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/14> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.14";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "14";
+    skos:prefLabel "HPLC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/156> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.156";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "156";
+    skos:prefLabel "Zeving op massa met grootte > 2 mm (grofkorrelig)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/15> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.15";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "15";
+    skos:prefLabel "IC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/16> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.16";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "16";
+    skos:prefLabel "turbidimetrie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/17> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.17";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "17";
+    skos:prefLabel "ionselectieve electrode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/18> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.18";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "18";
+    skos:prefLabel "Berekend uit P totaal"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/19> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.19";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "19";
+    skos:prefLabel "Berekend"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "1";
+    skos:prefLabel "Geleidbaarheidsmeter"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/200> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.200";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "200";
+    skos:prefLabel "Chemische reactie met waterstofchloride"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/201> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.201";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "201";
+    skos:prefLabel "Hydrometer met referentiecilinder"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/202> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.202";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "202";
+    skos:prefLabel "Laserdiffractie (Optisch model MIE)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/203> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.203";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "203";
+    skos:prefLabel "Laserdiffractie (Optisch model Fraunhofer)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/204> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.204";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "204";
+    skos:prefLabel "Bepaling plasticiteitsindex, vloeigrens d.m.v. het apparaat van Casagrande"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/205> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.205";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "205";
+    skos:prefLabel "Bepaling plasticiteitsindex, vloeigrens d.m.v. de valconus"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/20> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.20";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "20";
+    skos:prefLabel "Winkler methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/21> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.21";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "21";
+    skos:prefLabel "ICP-MS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/22> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.22";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "22";
+    skos:prefLabel "Thermometer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/23> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.23";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "23";
+    skos:prefLabel "Ionchromatografie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/24> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.24";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "24";
+    skos:prefLabel "Chemoluminescentie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/25> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.25";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "25";
+    skos:prefLabel "Electrode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/26> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.26";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "26";
+    skos:prefLabel "LCMSMS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/27> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.27";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "27";
+    skos:prefLabel "GCMSMS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/28> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.28";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "28";
+    skos:prefLabel "Plaattelling"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/29> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.29";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "29";
+    skos:prefLabel "HSGCMS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "2";
+    skos:prefLabel "pH-meter"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/300> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.300";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "300";
+    skos:prefLabel "Methyleenblauwproef"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/301> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.301";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "301";
+    skos:prefLabel "Chemische reactie met waterstofperoxide"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/304> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.304";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "304";
+    skos:prefLabel "Methode volgens de norm"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/305> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.305";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "305";
+    skos:prefLabel "Zeving"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/306> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.306";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "306";
+    skos:prefLabel "Aangenomen"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/30> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.30";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "30";
+    skos:prefLabel "Spectrofotometrie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/31> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.31";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "31";
+    skos:prefLabel "Combustion"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/32> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.32";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "32";
+    skos:prefLabel "Filtratieramp"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/33> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.33";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "33";
+    skos:prefLabel "ICP-OES"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/34> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.34";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "34";
+    skos:prefLabel "LC-MS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/35> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.35";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "35";
+    skos:prefLabel "LC-QTOF-MS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/36> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.36";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "36";
+    skos:prefLabel "Fluorescentie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/37> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.37";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "37";
+    skos:prefLabel "Afgeleid uit boring"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/38> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.38";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "38";
+    skos:prefLabel "Stereomicroscoop"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/39> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.39";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "39";
+    skos:prefLabel "XRD"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "3";
+    skos:prefLabel "Titratie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/40> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.40";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "40";
+    skos:prefLabel "Frantz magnetische separator"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/4> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "4";
+    skos:prefLabel "Colorimetrie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/500> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.500";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "500";
+    skos:prefLabel "Classificatie volgens de norm"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/502> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.502";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "502";
+    skos:prefLabel "Lithologische beschrijving"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/5> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "5";
+    skos:prefLabel "Gravimetrie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/6> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.6";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "6";
+    skos:prefLabel "microcoulometrie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/7> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.7";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "7";
+    skos:prefLabel "fotometrie"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/8> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.8";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "8";
+    skos:prefLabel "AAS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/9> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.9";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "9";
+    skos:prefLabel "ICP"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOC1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOC1";
+    skos:prefLabel "pH KCl volgens BOC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOC2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOC2";
+    skos:prefLabel "manuele textuurbepaling volgens BOC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOC3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOC3";
+    skos:prefLabel "TOC volgens BOC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOC4 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOC4";
+    skos:prefLabel "Dichromaatmethode volgens BOC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOC5 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOC5";
+    skos:prefLabel "granulometrische textuurbepaling volgens BOC"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_ALG1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_ALG1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_ALG1";
+    skos:prefLabel "Visuele waarneming (Cmon staalnameprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_ALG2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_ALG2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_ALG2";
+    skos:prefLabel "Drogen 105°C (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_BEM1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_BEM1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_BEM1";
+    skos:prefLabel "XYZ_GPS - RTK FLEPOS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_BEM2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_BEM2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_BEM2";
+    skos:prefLabel "Zeefrest 2 mm (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM10 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM10";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM10";
+    skos:prefLabel "AgTU with Ammoniumac. 0,1M, pH 7,0"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM11 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM11";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM11";
+    skos:prefLabel "in AgTU extract"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM12 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM12";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM12";
+    skos:prefLabel "pH in CaCl2, 0,01M, 1:2,5"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM13 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM13";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM13";
+    skos:prefLabel "ANCA Mass spectrometer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM14 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM14";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM14";
+    skos:prefLabel "pH in KCl, 1M, 1:5 (m/V)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM15 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM15";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM15";
+    skos:prefLabel "Element analysis by CN Interscience analyzer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM16 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM16";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM16";
+    skos:prefLabel "Oxalaat extraheerbaar Al, Fe en P Schwertmann 1973"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM17 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM17";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM17";
+    skos:prefLabel "Dichromaatmethode Walkley en Black"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM18 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM18";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM18";
+    skos:prefLabel "Berekend - Organische C voorraad op basis van Organische C en Bulkdensiteit"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM19 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM19";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM19";
+    skos:prefLabel "Total N by CN analyser (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM1";
+    skos:prefLabel "Springer en Klee en microkjeldal-methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM20 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM20";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM20";
+    skos:prefLabel "Total C by CN analyser (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM21 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM21";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM21";
+    skos:prefLabel "Inorganic C by CN analyser (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM22 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM22";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM22";
+    skos:prefLabel "pH in KCl 1:5 (V/V) (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM23 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM23";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM23";
+    skos:prefLabel "pH in KCl 1:10 (V/V) (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM24 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM24";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM24";
+    skos:prefLabel "Inorganic C niet gemeten omdat pH KCl < 6,5 (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM25 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM25";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM25";
+    skos:prefLabel "TOC by CN analyser na verwijderen anorganische C"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM26 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM26";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM26";
+    skos:prefLabel "Berekend - Totale N voorraad op basis van Totale N en Bulkdensiteit"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM27 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM27";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM27";
+    skos:prefLabel "Berekend - Organische C voorraad op basis van Organische C en Massa"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM28 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM28";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM28";
+    skos:prefLabel "Berekend - Totale N voorraad op basis van Totale N en Massa"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM2";
+    skos:prefLabel "Aardewerk oude methode organische koolstof"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM3";
+    skos:prefLabel "Aardewerk nieuwe methode organische koolstof"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM4 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM4";
+    skos:prefLabel "Natriumdithioniet"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM5 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM5";
+    skos:prefLabel "Opbruisen bij contact met HCl"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM6 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM6";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM6";
+    skos:prefLabel "pH KCl centrum voor Grondonderzoek De Leenheer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM7 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM7";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM7";
+    skos:prefLabel "pH H2O centrum voor Grondonderzoek De Leenheer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM8 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM8";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM8";
+    skos:prefLabel "Element analysis C Jena analyzer"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_CHEM9 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM9";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_CHEM9";
+    skos:prefLabel "Berekend - Organische C is gelijk aan Totale C min Anorganische C"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS10 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS10";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS10";
+    skos:prefLabel "Massaprocent materiaal > 1 cm (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS11 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS11";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS11";
+    skos:prefLabel "Bulkdensiteit bepaald op basis van Kopeckyringen en massa materiaal > 1 cm (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS12 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS12";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS12";
+    skos:prefLabel "Bulkdensiteit bepaald op basis van Kopeckyringen en massa stenen > 1 cm (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS13 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS13";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS13";
+    skos:prefLabel "Massaprocent stenen > 1 cm (Cmon analyseprotocol 1.0)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS14 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS14";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS14";
+    skos:prefLabel "Berekend - Gemiddelde van Bulkdensiteit bepaald op basis van Kopeckyringen (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS15 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS15";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS15";
+    skos:prefLabel "Berekend - Gemiddelde van Bulkdensiteit bepaald op basis van Kopeckyringen en massa materiaal > 1 cm (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS16 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS16";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS16";
+    skos:prefLabel "Berekend - Gemiddelde van Bulkdensiteit bepaald op basis van Kopeckyringen en massa stenen > 1 cm (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS1";
+    skos:prefLabel "Ksat Open-end-methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS2";
+    skos:prefLabel "Ksat Enkele-ring-methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS3";
+    skos:prefLabel "Ksat Porchet-methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS4 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS4";
+    skos:prefLabel "Ksat_Soakaway_methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS5 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS5";
+    skos:prefLabel "Bulkdensiteit gemeten op ongestoord staal"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS6 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS6";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS6";
+    skos:prefLabel "Ksat Hooghoudt-boorgatmethode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS7 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS7";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS7";
+    skos:prefLabel "Ksat Omgekeerde-Hooghoudt-boorgatmethode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS8 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS8";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS8";
+    skos:prefLabel "Ksat Dubbele-ring-methode"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_FYS9 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS9";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_FYS9";
+    skos:prefLabel "Bulkdensiteit bepaald op basis van Kopeckyringen (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_MIN1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_MIN1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_MIN1";
+    skos:prefLabel "Mineralogisch onderzoek Fract. Dens. 2,68"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_MIN2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_MIN2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_MIN2";
+    skos:prefLabel "Mineralogisch onderzoek Fract. groter dan 50 µm"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_PFAS dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_PFAS";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_PFAS";
+    skos:prefLabel "PFAS in bodem volgens CMA_3_D"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_SPE1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_SPE1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_SPE1";
+    skos:prefLabel "NIRS met FOSS XDS toestel (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_SPE2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_SPE2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_SPE2";
+    skos:prefLabel "NIRS met ASD Fieldspec 3 FR spectroradiometer toestel"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX1";
+    skos:prefLabel "Textuur pipetmethode Robinson-Köhn"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX2";
+    skos:prefLabel "Textuur manuele schatting (palpatie)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX3";
+    skos:prefLabel "Laserdiffractie bodem"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX4 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX4";
+    skos:prefLabel "Pipetmethode van De Leenheer en Van Hove 1956"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX5 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX5";
+    skos:prefLabel "Laserdiffractie bodem (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX6 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX6";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX6";
+    skos:prefLabel "Textuurfracties volumeprocent afgeleid op basis van NIRS"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX7 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX7";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX7";
+    skos:prefLabel "Berekend - fractie 0-6 µm op basis van Laserdiffractie bodem (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX8 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX8";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX8";
+    skos:prefLabel "Berekend - fractie 6-63 µm op basis van Laserdiffractie bodem (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:BOD_TEX9 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX9";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "BOD_TEX9";
+    skos:prefLabel "Berekend - fractie 63-2000 µm op basis van Laserdiffractie bodem (Cmon analyseprotocol)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:CMON_PA1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PA1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "CMON_PA1";
+    skos:prefLabel "Cmon analyseprotocol"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:CMON_PS1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PS1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "CMON_PS1";
+    skos:prefLabel "Cmon staalnameprotocol"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:CMON_PS2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PS2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "CMON_PS2";
+    skos:prefLabel "Cmon staalnameprotocol obstakel geroerd monster"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:CMON_PS3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PS3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "CMON_PS3";
+    skos:prefLabel "Cmon staalnameprotocol obstakel ongeroerd monster"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:DL1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.DL1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "DL1";
+    skos:prefLabel "Doorlatendheid in tx cel"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:GW_PFAS dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.GW_PFAS";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "GW_PFAS";
+    skos:prefLabel "PFAS in water volgens WAC_IV_A_025"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:KPIP dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.KPIP";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "KPIP";
+    skos:prefLabel "Pipette"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:KSED dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.KSED";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "KSED";
+    skos:prefLabel "Sedigraaf"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:KZNK dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.KZNK";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "KZNK";
+    skos:prefLabel "Bezinkingsproef"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:SON_CM dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.SON_CM";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "SON_CM";
+    skos:prefLabel "continu mechanisch"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:SON_DM dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.SON_DM";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "SON_DM";
+    skos:prefLabel "discontinu mechanisch"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:SON_E dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.SON_E";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "SON_E";
+    skos:prefLabel "continu elektrisch"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:Stijfheid1 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "Stijfheid1";
+    skos:prefLabel "Samendrukkingsproef/Oedometerproef"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:Stijfheid2 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "Stijfheid2";
+    skos:prefLabel "Zwelproef volgens ASTM D4546-14 methode B"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:Stijfheid3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "Stijfheid3";
+    skos:prefLabel "Zwelproef volgens XP P94-091:1995"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:Stijfheid4 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "Stijfheid4";
+    skos:prefLabel "Constant Rate of Strain (CRS)"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+concept:WM dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.WM";
+    a skos:Concept;
+    skos:inScheme conceptscheme:observatieproceduretype;
+    skos:notation "WM";
+    skos:prefLabel "Visuele waarneming"@nl;
+    skos:topConceptOf conceptscheme:observatieproceduretype.
+conceptscheme:observatieproceduretype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.observatieproceduretype";
+    a skos:ConceptScheme;
+    skos:definition "Beschrijving welke procedure."@nl;
+    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/110>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/111>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/112>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/113>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/115>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/116>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/117>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/118>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/119>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/120>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/134>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/136>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/137>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/138>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/156>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/200>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/201>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/202>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/203>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/204>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/205>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/27>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/28>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/29>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/300>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/301>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/304>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/305>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/306>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/30>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/31>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/32>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/33>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/34>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/35>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/36>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/37>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/38>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/39>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/40>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/500>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/502>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/9>, concept:BOC1, concept:BOC2, concept:BOC3, concept:BOC4, concept:BOC5, concept:BOD_ALG1, concept:BOD_ALG2, concept:BOD_BEM1, concept:BOD_BEM2, concept:BOD_CHEM10, concept:BOD_CHEM11, concept:BOD_CHEM12, concept:BOD_CHEM13, concept:BOD_CHEM14, concept:BOD_CHEM15, concept:BOD_CHEM16, concept:BOD_CHEM17, concept:BOD_CHEM18, concept:BOD_CHEM19, concept:BOD_CHEM1, concept:BOD_CHEM20, concept:BOD_CHEM21, concept:BOD_CHEM22, concept:BOD_CHEM23, concept:BOD_CHEM24, concept:BOD_CHEM25, concept:BOD_CHEM26, concept:BOD_CHEM27, concept:BOD_CHEM28, concept:BOD_CHEM2, concept:BOD_CHEM3, concept:BOD_CHEM4, concept:BOD_CHEM5, concept:BOD_CHEM6, concept:BOD_CHEM7, concept:BOD_CHEM8, concept:BOD_CHEM9, concept:BOD_FYS10, concept:BOD_FYS11, concept:BOD_FYS12, concept:BOD_FYS13, concept:BOD_FYS14, concept:BOD_FYS15, concept:BOD_FYS16, concept:BOD_FYS1, concept:BOD_FYS2, concept:BOD_FYS3, concept:BOD_FYS4, concept:BOD_FYS5, concept:BOD_FYS6, concept:BOD_FYS7, concept:BOD_FYS8, concept:BOD_FYS9, concept:BOD_MIN1, concept:BOD_MIN2, concept:BOD_PFAS, concept:BOD_SPE1, concept:BOD_SPE2, concept:BOD_TEX1, concept:BOD_TEX2, concept:BOD_TEX3, concept:BOD_TEX4, concept:BOD_TEX5, concept:BOD_TEX6, concept:BOD_TEX7, concept:BOD_TEX8, concept:BOD_TEX9, concept:CMON_PA1, concept:CMON_PS1, concept:CMON_PS2, concept:CMON_PS3, concept:DL1, concept:GW_PFAS, concept:KPIP, concept:KSED, concept:KZNK, concept:SON_CM, concept:SON_DM, concept:SON_E, concept:Stijfheid1, concept:Stijfheid2, concept:Stijfheid3, concept:Stijfheid4, concept:WM;
+    skos:note "Beschrijving welke procedure."@nl;
+    skos:prefLabel "Codelijst observatieproceduretype."@nl.

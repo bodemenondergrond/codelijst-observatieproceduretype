@@ -1,0 +1,1938 @@
+{
+    "@context": {
+        "sparql-service-description-graph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+            "@type": "@id"
+        },
+        "defaultGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "@type": "@id"
+        },
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/",
+        "collectie": "https://data.bodemenondergrond.vlaanderen.be/id/collection/observatieproceduretype/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.bodemenondergrond.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/observatieproceduretype/"
+    },
+    "graph": [
+        {
+            "id": "concept:0",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.0",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "0",
+            "prefLabel": "Onbekend",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "1",
+            "prefLabel": "Geleidbaarheidsmeter",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:10",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.10",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "10",
+            "prefLabel": "FAAS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:11",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.11",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "11",
+            "prefLabel": "MS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:110",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.110",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "110",
+            "prefLabel": "Zeving op massa met grootte <= 2mm (fijnkorrelig)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:111",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.111",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "111",
+            "prefLabel": "Hydrometer met ijking Geotechniek",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:112",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.112",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "112",
+            "prefLabel": "D.m.v. Laserdiffractie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:113",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.113",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "113",
+            "prefLabel": "Hydrometer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:115",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.115",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "115",
+            "prefLabel": "Bepaling vloeigrens d.m.v. apparaat van Casagrande",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:116",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.116",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "116",
+            "prefLabel": "Bepaling vloeigrens d.m.v. de valconus",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:117",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.117",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "117",
+            "prefLabel": "Bepaling van de uitrolgrens",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:118",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.118",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "118",
+            "prefLabel": "Volumieke massa door weging",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:119",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.119",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "119",
+            "prefLabel": "Gewichtsverlies na drogen in droogstoof",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:12",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.12",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "12",
+            "prefLabel": "GCMS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:120",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.120",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "120",
+            "prefLabel": "Gaspyknometer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:13",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.13",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "13",
+            "prefLabel": "GC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:134",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.134",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "134",
+            "prefLabel": "d.m.v. trechter",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:136",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.136",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "136",
+            "prefLabel": "Veranderlijk verval in permeameter",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:137",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.137",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "137",
+            "prefLabel": "Constant verval in doorlatendheidscel",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:138",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.138",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "138",
+            "prefLabel": "Constant verval in triaxiaalcel",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:14",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.14",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "14",
+            "prefLabel": "HPLC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:15",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.15",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "15",
+            "prefLabel": "IC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:156",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.156",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "156",
+            "prefLabel": "Zeving op massa met grootte > 2 mm (grofkorrelig)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:16",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.16",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "16",
+            "prefLabel": "turbidimetrie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:17",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.17",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "17",
+            "prefLabel": "ionselectieve electrode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:18",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.18",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "18",
+            "prefLabel": "Berekend uit P totaal",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:19",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.19",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "19",
+            "prefLabel": "Berekend",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "2",
+            "prefLabel": "pH-meter",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:20",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.20",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "20",
+            "prefLabel": "Winkler methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:200",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.200",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "200",
+            "prefLabel": "Chemische reactie met waterstofchloride",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:201",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.201",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "201",
+            "prefLabel": "Hydrometer met referentiecilinder",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:202",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.202",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "202",
+            "prefLabel": "Laserdiffractie (Optisch model MIE)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:203",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.203",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "203",
+            "prefLabel": "Laserdiffractie (Optisch model Fraunhofer)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:204",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.204",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "204",
+            "prefLabel": "Bepaling plasticiteitsindex, vloeigrens d.m.v. het apparaat van Casagrande",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:205",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.205",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "205",
+            "prefLabel": "Bepaling plasticiteitsindex, vloeigrens d.m.v. de valconus",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:21",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.21",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "21",
+            "prefLabel": "ICP-MS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:22",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.22",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "22",
+            "prefLabel": "Thermometer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:23",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.23",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "23",
+            "prefLabel": "Ionchromatografie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:24",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.24",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "24",
+            "prefLabel": "Chemoluminescentie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:25",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.25",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "25",
+            "prefLabel": "Electrode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:26",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.26",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "26",
+            "prefLabel": "LCMSMS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:27",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.27",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "27",
+            "prefLabel": "GCMSMS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:28",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.28",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "28",
+            "prefLabel": "Plaattelling",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:29",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.29",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "29",
+            "prefLabel": "HSGCMS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "3",
+            "prefLabel": "Titratie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:30",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.30",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "30",
+            "prefLabel": "Spectrofotometrie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:300",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.300",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "300",
+            "prefLabel": "Methyleenblauwproef",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:301",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.301",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "301",
+            "prefLabel": "Chemische reactie met waterstofperoxide",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:304",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.304",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "304",
+            "prefLabel": "Methode volgens de norm",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:305",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.305",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "305",
+            "prefLabel": "Zeving",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:306",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.306",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "306",
+            "prefLabel": "Aangenomen",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:31",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.31",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "31",
+            "prefLabel": "Combustion",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:32",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.32",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "32",
+            "prefLabel": "Filtratieramp",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:33",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.33",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "33",
+            "prefLabel": "ICP-OES",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:34",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.34",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "34",
+            "prefLabel": "LC-MS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:35",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.35",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "35",
+            "prefLabel": "LC-QTOF-MS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:36",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.36",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "36",
+            "prefLabel": "Fluorescentie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:37",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.37",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "37",
+            "prefLabel": "Afgeleid uit boring",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:38",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.38",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "38",
+            "prefLabel": "Stereomicroscoop",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:39",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.39",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "39",
+            "prefLabel": "XRD",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.4",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "4",
+            "prefLabel": "Colorimetrie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:40",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.40",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "40",
+            "prefLabel": "Frantz magnetische separator",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.5",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "5",
+            "prefLabel": "Gravimetrie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:500",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.500",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "500",
+            "prefLabel": "Classificatie volgens de norm",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:502",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.502",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "502",
+            "prefLabel": "Lithologische beschrijving",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:6",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.6",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "6",
+            "prefLabel": "microcoulometrie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:7",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.7",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "7",
+            "prefLabel": "fotometrie",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:8",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.8",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "8",
+            "prefLabel": "AAS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:9",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.9",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "9",
+            "prefLabel": "ICP",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOC1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOC1",
+            "prefLabel": "pH KCl volgens BOC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOC2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOC2",
+            "prefLabel": "manuele textuurbepaling volgens BOC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOC3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOC3",
+            "prefLabel": "TOC volgens BOC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOC4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC4",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOC4",
+            "prefLabel": "Dichromaatmethode volgens BOC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOC5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOC5",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOC5",
+            "prefLabel": "granulometrische textuurbepaling volgens BOC",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_ALG1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_ALG1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_ALG1",
+            "prefLabel": "Visuele waarneming (Cmon staalnameprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_ALG2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_ALG2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_ALG2",
+            "prefLabel": "Drogen 105°C (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_BEM1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_BEM1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_BEM1",
+            "prefLabel": "XYZ_GPS - RTK FLEPOS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_BEM2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_BEM2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_BEM2",
+            "prefLabel": "Zeefrest 2 mm (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM1",
+            "prefLabel": "Springer en Klee en microkjeldal-methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM10",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM10",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM10",
+            "prefLabel": "AgTU with Ammoniumac. 0,1M, pH 7,0",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM11",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM11",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM11",
+            "prefLabel": "in AgTU extract",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM12",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM12",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM12",
+            "prefLabel": "pH in CaCl2, 0,01M, 1:2,5",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM13",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM13",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM13",
+            "prefLabel": "ANCA Mass spectrometer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM14",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM14",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM14",
+            "prefLabel": "pH in KCl, 1M, 1:5 (m/V)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM15",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM15",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM15",
+            "prefLabel": "Element analysis by CN Interscience analyzer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM16",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM16",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM16",
+            "prefLabel": "Oxalaat extraheerbaar Al, Fe en P Schwertmann 1973",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM17",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM17",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM17",
+            "prefLabel": "Dichromaatmethode Walkley en Black",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM18",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM18",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM18",
+            "prefLabel": "Berekend - Organische C voorraad op basis van Organische C en Bulkdensiteit",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM19",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM19",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM19",
+            "prefLabel": "Total N by CN analyser (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM2",
+            "prefLabel": "Aardewerk oude methode organische koolstof",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM20",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM20",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM20",
+            "prefLabel": "Total C by CN analyser (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM21",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM21",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM21",
+            "prefLabel": "Inorganic C by CN analyser (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM22",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM22",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM22",
+            "prefLabel": "pH in KCl 1:5 (V/V) (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM23",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM23",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM23",
+            "prefLabel": "pH in KCl 1:10 (V/V) (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM24",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM24",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM24",
+            "prefLabel": "Inorganic C niet gemeten omdat pH KCl < 6,5 (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM25",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM25",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM25",
+            "prefLabel": "TOC by CN analyser na verwijderen anorganische C",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM26",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM26",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM26",
+            "prefLabel": "Berekend - Totale N voorraad op basis van Totale N en Bulkdensiteit",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM27",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM27",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM27",
+            "prefLabel": "Berekend - Organische C voorraad op basis van Organische C en Massa",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM28",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM28",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM28",
+            "prefLabel": "Berekend - Totale N voorraad op basis van Totale N en Massa",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM3",
+            "prefLabel": "Aardewerk nieuwe methode organische koolstof",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM4",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM4",
+            "prefLabel": "Natriumdithioniet",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM5",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM5",
+            "prefLabel": "Opbruisen bij contact met HCl",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM6",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM6",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM6",
+            "prefLabel": "pH KCl centrum voor Grondonderzoek De Leenheer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM7",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM7",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM7",
+            "prefLabel": "pH H2O centrum voor Grondonderzoek De Leenheer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM8",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM8",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM8",
+            "prefLabel": "Element analysis C Jena analyzer",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_CHEM9",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_CHEM9",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_CHEM9",
+            "prefLabel": "Berekend - Organische C is gelijk aan Totale C min Anorganische C",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS1",
+            "prefLabel": "Ksat Open-end-methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS10",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS10",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS10",
+            "prefLabel": "Massaprocent materiaal > 1 cm (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS11",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS11",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS11",
+            "prefLabel": "Bulkdensiteit bepaald op basis van Kopeckyringen en massa materiaal > 1 cm (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS12",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS12",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS12",
+            "prefLabel": "Bulkdensiteit bepaald op basis van Kopeckyringen en massa stenen > 1 cm (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS13",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS13",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS13",
+            "prefLabel": "Massaprocent stenen > 1 cm (Cmon analyseprotocol 1.0)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS14",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS14",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS14",
+            "prefLabel": "Berekend - Gemiddelde van Bulkdensiteit bepaald op basis van Kopeckyringen (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS15",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS15",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS15",
+            "prefLabel": "Berekend - Gemiddelde van Bulkdensiteit bepaald op basis van Kopeckyringen en massa materiaal > 1 cm (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS16",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS16",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS16",
+            "prefLabel": "Berekend - Gemiddelde van Bulkdensiteit bepaald op basis van Kopeckyringen en massa stenen > 1 cm (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS2",
+            "prefLabel": "Ksat Enkele-ring-methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS3",
+            "prefLabel": "Ksat Porchet-methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS4",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS4",
+            "prefLabel": "Ksat_Soakaway_methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS5",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS5",
+            "prefLabel": "Bulkdensiteit gemeten op ongestoord staal",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS6",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS6",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS6",
+            "prefLabel": "Ksat Hooghoudt-boorgatmethode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS7",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS7",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS7",
+            "prefLabel": "Ksat Omgekeerde-Hooghoudt-boorgatmethode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS8",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS8",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS8",
+            "prefLabel": "Ksat Dubbele-ring-methode",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_FYS9",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_FYS9",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_FYS9",
+            "prefLabel": "Bulkdensiteit bepaald op basis van Kopeckyringen (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_MIN1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_MIN1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_MIN1",
+            "prefLabel": "Mineralogisch onderzoek Fract. Dens. 2,68",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_MIN2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_MIN2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_MIN2",
+            "prefLabel": "Mineralogisch onderzoek Fract. groter dan 50 µm",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_PFAS",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_PFAS",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_PFAS",
+            "prefLabel": "PFAS in bodem volgens CMA_3_D",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_SPE1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_SPE1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_SPE1",
+            "prefLabel": "NIRS met FOSS XDS toestel (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_SPE2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_SPE2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_SPE2",
+            "prefLabel": "NIRS met ASD Fieldspec 3 FR spectroradiometer toestel",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX1",
+            "prefLabel": "Textuur pipetmethode Robinson-Köhn",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX2",
+            "prefLabel": "Textuur manuele schatting (palpatie)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX3",
+            "prefLabel": "Laserdiffractie bodem",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX4",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX4",
+            "prefLabel": "Pipetmethode van De Leenheer en Van Hove 1956",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX5",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX5",
+            "prefLabel": "Laserdiffractie bodem (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX6",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX6",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX6",
+            "prefLabel": "Textuurfracties volumeprocent afgeleid op basis van NIRS",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX7",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX7",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX7",
+            "prefLabel": "Berekend - fractie 0-6 µm op basis van Laserdiffractie bodem (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX8",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX8",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX8",
+            "prefLabel": "Berekend - fractie 6-63 µm op basis van Laserdiffractie bodem (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:BOD_TEX9",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.BOD_TEX9",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "BOD_TEX9",
+            "prefLabel": "Berekend - fractie 63-2000 µm op basis van Laserdiffractie bodem (Cmon analyseprotocol)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:CMON_PA1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PA1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "CMON_PA1",
+            "prefLabel": "Cmon analyseprotocol",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:CMON_PS1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PS1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "CMON_PS1",
+            "prefLabel": "Cmon staalnameprotocol",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:CMON_PS2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PS2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "CMON_PS2",
+            "prefLabel": "Cmon staalnameprotocol obstakel geroerd monster",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:CMON_PS3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.CMON_PS3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "CMON_PS3",
+            "prefLabel": "Cmon staalnameprotocol obstakel ongeroerd monster",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:DL1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.DL1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "DL1",
+            "prefLabel": "Doorlatendheid in tx cel",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:GW_PFAS",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.GW_PFAS",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "GW_PFAS",
+            "prefLabel": "PFAS in water volgens WAC_IV_A_025",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:KPIP",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.KPIP",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "KPIP",
+            "prefLabel": "Pipette",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:KSED",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.KSED",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "KSED",
+            "prefLabel": "Sedigraaf",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:KZNK",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.KZNK",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "KZNK",
+            "prefLabel": "Bezinkingsproef",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:SON_CM",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.SON_CM",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "SON_CM",
+            "prefLabel": "continu mechanisch",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:SON_DM",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.SON_DM",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "SON_DM",
+            "prefLabel": "discontinu mechanisch",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:SON_E",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.SON_E",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "SON_E",
+            "prefLabel": "continu elektrisch",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:Stijfheid1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid1",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "Stijfheid1",
+            "prefLabel": "Samendrukkingsproef/Oedometerproef",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:Stijfheid2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid2",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "Stijfheid2",
+            "prefLabel": "Zwelproef volgens ASTM D4546-14 methode B",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:Stijfheid3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid3",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "Stijfheid3",
+            "prefLabel": "Zwelproef volgens XP P94-091:1995",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:Stijfheid4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.Stijfheid4",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "Stijfheid4",
+            "prefLabel": "Constant Rate of Strain (CRS)",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "concept:WM",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.observatieproceduretype.WM",
+            "inScheme": "conceptscheme:observatieproceduretype",
+            "notation": "WM",
+            "prefLabel": "Visuele waarneming",
+            "topConceptOf": "conceptscheme:observatieproceduretype"
+        },
+        {
+            "id": "conceptscheme:observatieproceduretype",
+            "type": "skos:ConceptScheme",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.observatieproceduretype",
+            "definition": "Beschrijving welke procedure.",
+            "hasTopConcept": [
+                "concept:0",
+                "concept:10",
+                "concept:110",
+                "concept:111",
+                "concept:112",
+                "concept:113",
+                "concept:115",
+                "concept:116",
+                "concept:117",
+                "concept:118",
+                "concept:119",
+                "concept:11",
+                "concept:120",
+                "concept:12",
+                "concept:134",
+                "concept:136",
+                "concept:137",
+                "concept:138",
+                "concept:13",
+                "concept:14",
+                "concept:156",
+                "concept:15",
+                "concept:16",
+                "concept:17",
+                "concept:18",
+                "concept:19",
+                "concept:1",
+                "concept:200",
+                "concept:201",
+                "concept:202",
+                "concept:203",
+                "concept:204",
+                "concept:205",
+                "concept:20",
+                "concept:21",
+                "concept:22",
+                "concept:23",
+                "concept:24",
+                "concept:25",
+                "concept:26",
+                "concept:27",
+                "concept:28",
+                "concept:29",
+                "concept:2",
+                "concept:300",
+                "concept:301",
+                "concept:304",
+                "concept:305",
+                "concept:306",
+                "concept:30",
+                "concept:31",
+                "concept:32",
+                "concept:33",
+                "concept:34",
+                "concept:35",
+                "concept:36",
+                "concept:37",
+                "concept:38",
+                "concept:39",
+                "concept:3",
+                "concept:40",
+                "concept:4",
+                "concept:500",
+                "concept:502",
+                "concept:5",
+                "concept:6",
+                "concept:7",
+                "concept:8",
+                "concept:9",
+                "concept:BOC1",
+                "concept:BOC2",
+                "concept:BOC3",
+                "concept:BOC4",
+                "concept:BOC5",
+                "concept:BOD_ALG1",
+                "concept:BOD_ALG2",
+                "concept:BOD_BEM1",
+                "concept:BOD_BEM2",
+                "concept:BOD_CHEM10",
+                "concept:BOD_CHEM11",
+                "concept:BOD_CHEM12",
+                "concept:BOD_CHEM13",
+                "concept:BOD_CHEM14",
+                "concept:BOD_CHEM15",
+                "concept:BOD_CHEM16",
+                "concept:BOD_CHEM17",
+                "concept:BOD_CHEM18",
+                "concept:BOD_CHEM19",
+                "concept:BOD_CHEM1",
+                "concept:BOD_CHEM20",
+                "concept:BOD_CHEM21",
+                "concept:BOD_CHEM22",
+                "concept:BOD_CHEM23",
+                "concept:BOD_CHEM24",
+                "concept:BOD_CHEM25",
+                "concept:BOD_CHEM26",
+                "concept:BOD_CHEM27",
+                "concept:BOD_CHEM28",
+                "concept:BOD_CHEM2",
+                "concept:BOD_CHEM3",
+                "concept:BOD_CHEM4",
+                "concept:BOD_CHEM5",
+                "concept:BOD_CHEM6",
+                "concept:BOD_CHEM7",
+                "concept:BOD_CHEM8",
+                "concept:BOD_CHEM9",
+                "concept:BOD_FYS10",
+                "concept:BOD_FYS11",
+                "concept:BOD_FYS12",
+                "concept:BOD_FYS13",
+                "concept:BOD_FYS14",
+                "concept:BOD_FYS15",
+                "concept:BOD_FYS16",
+                "concept:BOD_FYS1",
+                "concept:BOD_FYS2",
+                "concept:BOD_FYS3",
+                "concept:BOD_FYS4",
+                "concept:BOD_FYS5",
+                "concept:BOD_FYS6",
+                "concept:BOD_FYS7",
+                "concept:BOD_FYS8",
+                "concept:BOD_FYS9",
+                "concept:BOD_MIN1",
+                "concept:BOD_MIN2",
+                "concept:BOD_PFAS",
+                "concept:BOD_SPE1",
+                "concept:BOD_SPE2",
+                "concept:BOD_TEX1",
+                "concept:BOD_TEX2",
+                "concept:BOD_TEX3",
+                "concept:BOD_TEX4",
+                "concept:BOD_TEX5",
+                "concept:BOD_TEX6",
+                "concept:BOD_TEX7",
+                "concept:BOD_TEX8",
+                "concept:BOD_TEX9",
+                "concept:CMON_PA1",
+                "concept:CMON_PS1",
+                "concept:CMON_PS2",
+                "concept:CMON_PS3",
+                "concept:DL1",
+                "concept:GW_PFAS",
+                "concept:KPIP",
+                "concept:KSED",
+                "concept:KZNK",
+                "concept:SON_CM",
+                "concept:SON_DM",
+                "concept:SON_E",
+                "concept:Stijfheid1",
+                "concept:Stijfheid2",
+                "concept:Stijfheid3",
+                "concept:Stijfheid4",
+                "concept:WM"
+            ],
+            "note": "Beschrijving welke procedure.",
+            "prefLabel": "Codelijst observatieproceduretype."
+        }
+    ]
+}
